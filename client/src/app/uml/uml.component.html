@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="jumbotron mt-5">
+    <div class="col-sm-8 mx-auto">
+      <h1 class="text-center">Welcome</h1>
+
+        <form>
+      		<h3>Ajouter un Diagramme UML</h3>
+      		<div>
+      			<label for="table">Table</label>
+      			<input type="text" name="table" #table>
+      		</div>
+      		<div>
+      			<label for="table">Propriete</label>
+      			<input type="text" name="propriete" #propriete>
+      		</div>
+      		<button (click)="addRow(table, propriete)">Envoyer</button>
+      	</form>
+
+
+    </div>
+  </div>
+</div>
